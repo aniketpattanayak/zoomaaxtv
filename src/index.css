@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('/Gilroy-font-free/Gilroy-Light 300.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url('/Gilroy-font-free/Gilroy-ExtraBold 800.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Gilroy-Light', sans-serif;
+}
+/* Hide scrollbar for Chrome, Safari, and Edge */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
